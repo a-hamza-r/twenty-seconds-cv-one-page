@@ -1,0 +1,272 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%scale fontawesome fonts
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+  {<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Ameer Hamza} % Your name
+%\cvjobtitle{Gadepalli} % Job title/career
+
+%\cvdate{12 May 1996} % Date of birth
+\cvaddress{ah18r@my.fsu.edu} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+1(850) 405-8891} % Phone number
+\cvsite{a-hamza-r.github.io/}
+\cvlinkedin{linkedin.com/in/a-hamza/} % Linkedin profile
+\cvgithub{github.com/a-hamza-r/}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+\Education{
+\textbf{Florida State University (FSU)}, \newline 
+%{\small \faMapMarker} \hspace{0.05em} 
+\emph{Tallahassee, FL} \newline Doctorate's in Computer Science \newline \emph{Expected Graduation}: May 2024 \newline \emph{GPA}: 3.82/4.0 \newline
+\textbf{Relevant Coursework}: Graduate Software Engineering, Computer-Aided Verification, Advanced Algorithms, \\Deep \& Reinforcement Learning
+% , Data Mining 
+\newline \newline
+\textbf{Lahore University of Management Sciences (LUMS)}, \newline \emph{Lahore, Pakistan} \newline Bachelor's in Computer Science \newline \emph{Graduation}: May 2018 \newline \emph{GPA}: 3.06/4.0 \newline \textbf{Relevant Coursework}: Software Engineering, Program Analysis, 
+% Network-Centric Computing, 
+% Advanced Programming, 
+\\High Performance Computing, Algorithms, Data Structures, Computer Security  \\[3mm] 
+} % To have no Education section, just remove all the text and leave \Education{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{\textbf{Programming}: C/C++, Java, C\#, Python, Golang, Haskell, MATLAB, 
+% Assembly (Familiarity with y86-64 and MIPS), 
+familiarity with Linux/Unix environment, System Programming, Network Programming, Bash \vspace{1mm}
+\newline \textbf{Tools}: SeaHorn Verification framework, LLVM, Java PathFinder (JPF), Z3 (SMT solver) \vspace{1mm}
+\newline \textbf{WebDev}: HTML, CSS, JavaScript \vspace{1mm}
+\newline  \textbf{Other}: Git/GitHub, SQL, MongoDb,
+% , Bugzilla, JIRA bug tracker, Firebase, 
+LaTeX \vspace{1mm}
+%\newline  \textbf{Design}: Adobe Photoshop \\[3mm]
+} 
+
+\achievements{
+    \textbullet{ National Outreach Program (NOP)  \underline{Scholarship Holder} \hfill \emph{LUMS} \vspace{0.4em} \newline} 
+    \textbullet{ Speed Programming Competition, MindSweeper \underline{Runners up} \hfill \emph{Lahore, PK} \vspace{0.4em} \newline}
+    \textbullet{ Google Codejam \underline{Participant}  \vspace{0.4em} \newline}
+    % \textbullet{ ICPC Programming Competition \underline{Participant} \hfill \emph{Lahore, PK}  \vspace{0.4em} \newline}
+    \textbullet{ National Agahee (Awareness) Quiz Competition \underline{Winner} \hspace{0.75cm} \emph{Karachi, PK}\newline}
+}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace{1.5mm}
+
+\section{Work Experience}
+
+\vspace{1mm}
+\hspace{77pt}\textbf{Graduate Research Assistant}
+
+\vspace{-0.8mm}
+
+\begin{workex}
+    \workexitem{Since May'20}{\emph{Field}: Formal Methods}{FormalMethods @ FSU\\}{\emph{Project}: Automated Alignment for Equivalence Checking}
+    
+    \workexitem{Jun'19-Apr'20}{\emph{Field}: Software Engineering}{SereneLab @ FSU\\}{\emph{Project}: Performance of Language Features}
+\end{workex}
+\vspace{-2mm}
+
+\hspace{77pt}\textbf{Graduate Teaching Assistant}
+
+\vspace{-1.5mm}
+
+\begin{workex}
+    \workexitem{Spr'21 \& Fall'19}{\emph{Course:} Software Engineering}{FSU\\}{\emph{Responsibilities}: Teaching recitation classes; assisting students with assignments and course content; grading instruments}
+\end{workex}
+\vspace{-1mm}
+
+\begin{twenty}
+	\twentyitem{Jun'17-May'18}{Technical Author}{Educative Inc.}{
+    Developed an interactive course for students eager to learn basic data structures and algorithms using Python and JavaScript}
+
+% 	\twentyitem{Oct'17-Feb'18}{Backend Developer}{Black Collective}{
+% 	\textbullet{ \emph{Responsibility}: Wrote REST API for creating RESTful websites and apps using a Node.js web service framework - Restify}}
+
+	\twentyitem{Fall'17}{Teaching Assistant}{LUMS}{
+	\emph{Course}: Operating Systems \newline
+	\emph{Responsibilities}: Assisting students with programming \\assignments and course content; grading instruments}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+\vspace{-2mm}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+
+\textbullet{ \textbf{A. Hamza} and G. Fedyukovich, "\emph{Automated Alignment for Equivalence Checking,}" in Computer-Aided Verification, 2021 - Under Review}
+
+\vspace{2mm}
+
+\section{Research Projects}
+
+\vspace{1mm}
+
+\begin{twenty} % Environment for a short list with no descriptions
+
+    \twentyitem{Since May'20}{Automated Alignment for Equivalence Checking} {Research Project}{
+    \textbullet{ Reducing a task of equivalence checking (relational verification) to a task of safety checking of a product program } \newline
+	\textbullet{ Introducing a novel technique for equivalence checking of two programs containing loops that require a nontrivial alignment (not in lockstep composition) inside product program}
+% 	\textbullet{ Product program and two given programs are represented symbolically using CHCs (Constrained Horn Clauses) }
+}
+
+	\twentyitem{Jun'19-Apr'20}{Performance of Language Features} {Research Project}{ 
+% 	\textbullet{ \emph{Focus}: Performance evaluation of software programs and \\language features} \newline
+% 	\textbullet{ Studied bug reports from bug tracking systems to identify \\performance bugs, their causes and fixes in  open-source systems} \newline
+	\textbullet{ Performance evaluation of two language features in C\# - loops and lists}}
+	
+	
+% 	\twentyitem{Apr'20-May'20}{Comparative study of NLP models}{Course Project}{
+%     \textbullet{ A comparative study of two NLP models: BERT and XLNet, exploring the pros and cons of each model and situations where one outperforms the other\newline}
+%     \textbullet{ Worked with PyTorch and Keras libraries for course assignments and project, resp.}
+%     }
+	
+	\twentyitem{Nov'19-Dec'19}{Automatic Assertion Generation for Programs}{Course Project}{
+	\textbullet{ Designed a systematic way of generating assertions for \\programs and used CBMC to prove/disprove these assertions on a range of benchmarks from SV-COMP}
+% 	\textbullet{ Experimented with multiple fuzzers}
+}
+
+% 	\twentyitem{Oct-Dec'19}{Branch Prediction Performance}{Course Project}{
+% 	\textbullet{ Evaluating the performance of different branch prediction \\techniques using a simulator, SimpleScalar }}
+	
+% 	\twentyitem{Nov'17-Dec'17}{Binary Rearrangement}{Course Project}{
+% 	\textbullet{ Worked on rearranging a binary to reduce page faults and thus attempting to reduce the execution time of a program } 
+% 	ELFIO (a C++ library) along with different tools in binutils were used. 
+%     }
+	\twentyitem{Jan'17-May'17}{Model Checking of Java Programs}{Directed Coursework}{
+	\textbullet{ Worked with Java PathFinder (JPF) for Model Checking and \\Partial Order Reduction of concurrent Java programs to detect data races}}
+% 	\textbullet{ Received a brief introduction to LLVM } 
+
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+\vspace{-2.0mm}
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Development Projects}
+
+\vspace{1mm}
+
+\begin{twenty} % Environment for a short list with no descriptions
+    
+    \twentyitem{Mar'19-May'19}{Modifying jEdit}{Software Engineering Project}{
+    \textbullet{ Made required changes (addition, deletion and modification of functionality) in an open-source system - jEdit, while ensuring the \\correctness of the system all the time \vspace{-0.8em}} \newline
+    }
+
+	\twentyitem{Aug'17-May'18}{Peer-to-Peer File Storage System}{Senior Year Project}{
+	\textbullet{ Developed a distributed P2P file storage system that serves as a backup for user's data, ensuring certain efficiency and availability \vspace{-0.8em}} 
+% 	\textbullet{ File system was built using Golang's bazil.org/fuse library } 
+    }
+	
+% 	\twentyitem{Nov-Dec'17}{Game Of Life}{HPC Course Project}{
+% 	\textbullet{ Parallelized a well-known grid-based game, Conway's Game Of Life, using grid decomposition technique to reduce the \\computation time of the successive generations } }
+	
+	\twentyitem{Mar'17-May'17}{Pseudobot}{Software Engineering Project}{
+	\textbullet{ Developed a retrieval-based chatbot with reinforced learning; and a personal assistant to help in common everyday tasks}
+	}
+	
+% 	\twentyitem{Feb'16-Mar'16}{Dropbin}{Network-Centric Computing Project}{
+%     \textbullet{ Developed Dropbin (a Dropbox replica with limited functionality) for file sharing files among multiple users, using Python Socket Programming}
+%     }
+    
+    % \twentyitem{Aug-Dec'2014}{Plants vs. Zombies Game}{Computational Problem Solving Course}{\textbullet{ Plants vs. Zombies game developed in MATLAB as a course project}}
+    
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
