@@ -1,1 +1,5 @@
-This is the repository for resume/CV for Ameer Hamza, created based on Twenty-Seconds-CV Template
+# Resume
+
+LaTeX template for Ameer's resume/CV
+
+Based off of [spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex](https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex)
